@@ -17,7 +17,6 @@ body{
     font-weight: 400;
     color: #212832;
     margin: 0 20px;
-    /* padding-top: 13px; */
     transition: all .4s ease-in-out;
 }
 .navbar .nav-item .nav-link:hover{
@@ -47,13 +46,14 @@ body{
     background-image: url('images/Decore.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
    margin-top: -130px;
 }
 .bgg{
     z-index: 1;
 }
 .mt-20{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .pt-50{
     padding-top: 150px;
@@ -108,7 +108,84 @@ body{
 }
 
 /* 1st Sect Reponsive hero */
-@media (max-width:991px) {
+@media (max-width:1350px) {
+
+.hero span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-heading{
+    font-size: 70px;
+     
+}
+.f-para{
+    font-size: 15px;
+}
+.find-btn{
+    font-size:18px ;
+    font-weight: 500;
+    padding: 15px 19px 22px 34px;
+    
+}
+.plane1{
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+.plane2{
+    position: absolute;
+    top: 40px;
+    right: -40px;
+}
+}
+@media (max-width:1280px) {
+.hero span{
+    font-size: 20px;
+}
+.main-heading{
+    font-size: 65px;
+     
+}
+.f-para{
+    font-size: 15px;
+}
+.find-btn{
+    font-size:18px ;
+    padding: 13px 17px 20px 30px;
+}
+
+.plane2{
+    position: absolute;
+    top: 10px;
+    right: -50px;
+}
+}
+@media (max-width:1024px){
+    .hero span{
+        font-size: 18px;
+    }
+    .main-heading{
+        font-size: 60px;
+         
+    }
+    .f-para{
+        font-size: 14px;
+    }
+    .find-btn{
+        font-size:16px ;
+        padding: 13px 17px 20px 30px;
+    }
+    .plane1{
+        top: 10px;
+        left: -50px;
+    }
+    .plane2{
+        top: 10px;
+        right: -60px;
+    }
+    }
+
+@media (max-width:980px) {
     .main-heading{
         font-size: 50px;
     }
@@ -121,6 +198,10 @@ body{
     }
     .hero span{
         font-size: 18px;
+    }
+    .plane2{
+        top: 40px;
+        right: -26px;
     }
 
 }
@@ -139,6 +220,16 @@ body{
     .hero span{
         font-size: 16px;
     }
+    .plane1{
+        
+        top: 10px;
+        left: -30px;
+    }
+    .plane2{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
 }
 @media (max-width:480px) {
     .main-heading{
@@ -155,6 +246,16 @@ body{
     .hero span{
         font-size: 16px;
     }
+    .plane1{
+        
+        top: -40px;
+        left: -35px;
+    }
+    .plane2{
+        position: absolute;
+        top: 0px;
+        right: -20px;
+    }
 }
 
 /* Start 2nd section */
@@ -169,7 +270,6 @@ body{
     margin-top: 70px;
 }
 .heading-best{
-    /* text-align: center; */
     color: #14183E;
     font-size: 50px;
     font-family: 'poppins';
@@ -181,7 +281,6 @@ body{
     padding:26px 13px 16px 12px;
     width: 310px;
     max-height: 340px;
-   /* position: relative; */
 }
 .category-box h3{
     font-size: 20px;
@@ -203,13 +302,11 @@ body{
 }
 .category .box1:hover::before{
     visibility: visible; 
-    /* z-index: 999999 */
 }
 .category .box1::before{
     width: 100px;
     height: 100px;
     content: "";
-    /* background-color: #DF6951; */
     background-image: url('images/Rectangle 157.png');
     background-repeat: no-repeat;
     position: relative;
@@ -218,7 +315,6 @@ body{
     left: 35px;
     z-index: -9999999;
     border-top-right-radius: 97px;
-    /* border-radius: 40px; */
     visibility: hidden;
 }
 .star-img{
@@ -316,6 +412,10 @@ body{
     margin-top: 100px;
     padding: 20px 24px 26px 25px ; 
 }
+.bx-shdw > img{
+    width: 100%;
+
+}
 .bx-shdw h4{
     font-family: 'Poppins';
     font-size:18px ;
@@ -332,7 +432,6 @@ body{
 .trip-box {
     position: absolute;
     top:205px;
-    /* display: inline-block; */
     right: -110px;
     padding: 13px 62px 7px 17px;
     border-radius: 18px;
@@ -364,6 +463,303 @@ body{
 .progress .progress-bar-striped{
     background-color: #8A79DF;
 }
+/* 4th responsive */
+@media (max-width:1450px){
+    .easy{
+        font-size: 18px;
+    }
+    .cls-book {
+        font-size: 48px;
+        margin: 13px 0px 28px 0px;
+    }
+    .ddd h3{
+        font-size: 15px;
+    }
+    .ddd p{
+        font-size: 15px;
+    }
+    .bx-shdw {
+        max-width: 365px;
+        border-radius: 23px;
+        margin-top: 95px;
+        padding: 18px 20px 24px 20px;
+    }
+    .bx-shdw h4{
+        font-size:17px ;
+        padding: 24px 0px 12px 0px;
+    }
+    .bx-shdw p{
+        font-size:15px ;
+       
+    }
+    .trip-box {
+        top: 205px;
+        right: -60px;
+        padding: 10px 42px 8px 10px;
+        border-radius: 18px;
+    }
+    .trip-cls p{
+      
+        font-size: 14px;
+    }
+    .trip-cls h4{
+      
+        font-size: 17px;
+        padding: 0px;
+      
+    }
+    .trip-cls .complete{
+        font-size: 14px;
+    }
+
+}
+
+ @media (max-width:1280px){
+    .easy{
+        font-size: 17px;
+    }
+    .cls-book {
+        font-size: 46px;
+        margin: 12px 0px 25px 0px;
+    }
+    .ddd h3{
+        font-size: 14px;
+    }
+    .ddd p{
+        font-size: 14px;
+    }
+    .bx-shdw {
+        max-width: 355px;
+        border-radius: 23px;
+        margin-top: 88px;
+        padding: 16px 18px 19px 15px;
+    }
+    .bx-shdw h4{
+        font-size:17px ;
+        padding: 23px 0px 11px 0px;
+    }
+    .bx-shdw p{
+        font-size:15px ;
+       
+    }
+    .trip-box {
+        top: 177px;
+        right: -93px;
+        padding: 7px 37px 6px 12px;
+        border-radius: 17px;
+    }
+    .trip-cls p{
+        font-size: 14px;
+    }
+    .trip-cls h4{
+        font-size: 17px;
+        padding: 0px;
+      
+    }
+    .trip-cls .complete{
+        font-size: 14px;
+    }
+
+}  
+@media (max-width:1024px){
+    .easy{
+        font-size: 15px;
+    }
+    .cls-book {
+        font-size: 42px;
+        margin: 10px 0px 22px 0px;
+    }
+    .ddd h3{
+        font-size: 14px;
+    }
+    .ddd p{
+        font-size: 13px;
+    }
+    
+    .flex-box{
+        display: flex;
+        justify-content: center;
+    }
+    .bx-shdw {
+        max-width: 325px;
+        border-radius: 20px;
+        margin-top: 80px;
+        padding: 16px 18px 19px 15px;
+    }
+    .bx-shdw h4{
+        font-size:16px ;
+        padding: 23px 0px 11px 0px;
+    }
+    .bx-shdw p{
+        font-size:15px ;
+       
+    }
+    .trip-box {
+        top: 170px;
+        right: -65px;
+        padding: 8px 12px 7px 11px;
+        border-radius: 15px;
+    }
+    .trip-cls p{
+        font-size: 13px;
+    }
+    .trip-cls h4{
+        font-size: 15px;
+        padding: 0px;
+      
+    }
+    .trip-cls .complete{
+        font-size: 14px;
+    }
+
+} 
+
+@media (max-width:980px){
+    .easy{
+        font-size: 15px;
+    }
+    .cls-book {
+        font-size: 42px;
+        margin: 10px 0px 22px 0px;
+    }
+    .ddd h3{
+        font-size: 14px;
+    }
+    .ddd p{
+        font-size: 13px;
+    }
+    .bx-shdw {
+        border: 2px solid red;
+        max-width: 325px;
+        border-radius: 20px;
+        margin-top: 80px;
+        padding: 16px 18px 19px 15px;
+    }
+    .bx-shdw h4{
+        font-size:16px ;
+        padding: 23px 0px 11px 0px;
+    }
+    .bx-shdw p{
+        font-size:15px ;
+       
+    }
+    .trip-box {
+        top: 185px;
+        right: -55px;
+        padding: 8px 12px 7px 11px;
+        border-radius: 15px;
+    }
+    .trip-cls p{
+        font-size: 12px;
+    }
+    .trip-cls h4{
+        font-size: 13px;
+        padding: 0px;
+      
+    }
+    .trip-cls .complete{
+        font-size: 12px;
+    }
+
+} 
+
+@media (max-width:780px){
+    .easy{
+        font-size: 15px;
+    }
+    .cls-book {
+        font-size: 36px;
+        margin: 10px 0px 20px 0px;
+    }
+    .ddd h3{
+        font-size: 14px;
+    }
+    .ddd p{
+        font-size: 13px;
+    }
+    .bx-shdw {
+        border: 2px solid red;
+        max-width: 325px;
+        border-radius: 20px;
+        margin-top: 80px;
+        padding: 16px 18px 19px 15px;
+    }
+    .bx-shdw h4{
+        font-size:14px ;
+        padding: 23px 0px 11px 0px;
+    }
+    .bx-shdw p{
+        font-size:13px ;
+       
+    }
+    .trip-box {
+        top: 185px;
+        right: -55px;
+        padding: 8px 12px 7px 11px;
+        border-radius: 15px;
+    }
+    .trip-cls p{
+        font-size: 11px;
+    }
+    .trip-cls h4{
+        font-size: 12px;
+        padding: 0px;
+      
+    }
+    .trip-cls .complete{
+        font-size: 12px;
+    }
+
+} 
+
+@media (max-width:480px){
+    .easy{
+        font-size: 15px;
+    }
+    .cls-book {
+        font-size: 32px;
+        margin: 10px 0px 20px 0px;
+    }
+    .ddd h3{
+        font-size: 14px;
+    }
+    .ddd p{
+        font-size: 13px;
+    }
+    .bx-shdw {
+        border: 2px solid red;
+        max-width: 300px;
+        border-radius: 15px;
+        margin-top: 50px;
+        padding: 12px 12px 12px 12px;
+    }
+    .bx-shdw h4{
+        font-size:13px ;
+        padding: 16px 0px 7px 0px;
+    }
+    .bx-shdw p{
+        font-size:13px ;
+       
+    }
+    .trip-box {
+        top: 165px;
+        right: -34px;
+        padding: 10px 10px 9px 5px;
+        border-radius: 10px;
+    }
+    .trip-cls p{
+        font-size: 9px;
+    }
+    .trip-cls h4{
+        font-size: 10px;
+        padding: 0px;
+      
+    }
+    .trip-cls .complete{
+        font-size: 10px;
+    }
+
+} 
 
 /* start 5th sec */
 .testimonials h6{
@@ -400,7 +796,16 @@ body{
 .company-img{
     margin: 95px 0px 110px 0px;
 }
+@media (max-width:500px) {
+    .hr{
+        flex-direction: column;
+    }
+    .company-img .hr img:last-child{
+        padding: 50px 20px;
+        /* border: 2px solid red; */
+    }
 
+}
 /* start 7th sec */
 .subsribe{
     position: relative;
@@ -446,6 +851,160 @@ body{
     right: 197px;
 }
 
+/* 7th responsive */
+
+@media (max-width:1450px) {
+    
+.info-heading{
+    font-size: 31px;
+    max-width: 780px;
+    line-height: 46px;
+    padding: 60px 0px 60px 0px;
+}
+
+.img-pos{
+    position: absolute;
+    right: -240px;
+    top: -18px;
+}
+.btn{
+    padding: 20px 45px;
+
+}
+.pad-bot{
+    padding-bottom: 70px;
+}
+.stars{
+    bottom: -60px;
+    right: 220px;
+}
+
+}
+
+@media (max-width:1280px) {
+    
+    .info-heading{
+        font-size: 28px;
+        max-width: 750px;
+        line-height: 40px;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    .img-pos{
+        right: -200px;
+        top: -30px;
+    }
+    .btn{
+        padding: 19px 40px;
+    
+    }
+    .pad-bot{
+        padding-bottom: 60px;
+    }
+    .stars{
+        bottom: -60px;
+        right: 230px;
+    }
+}
+@media (max-width:1024px) {
+    
+    .info-heading{
+        font-size: 25px;
+        max-width: 700px;
+        line-height: 35px;
+        padding: 45px 0px 45px 0px;
+    }
+    
+    .img-pos{
+        right: -175px;
+        top: -30px;
+    }
+    .btn{
+        padding: 18px 35px;
+    
+    }
+    .pad-bot{
+        padding-bottom: 55px;
+    }
+    .stars{
+        bottom: -60px;
+        right: 160px;
+    }  
+}
+    @media (max-width:980px) {
+        .info-heading{
+            font-size: 22px;
+            max-width: 545px;
+            line-height: 30px;
+            padding: 40px 0px 40px 0px;
+        }
+        
+        .img-pos {
+            right: -160px;
+            top: -36px;
+        }
+        .btn{
+            padding: 18px 30px;
+        
+        }
+        .pad-bot{
+            padding-bottom: 50px;
+        }
+        .stars{
+            bottom: -60px;
+            right: 120px;
+        }  
+}
+
+@media (max-width:780px) {
+    .info-heading{
+        font-size: 20px;
+        max-width: 500px;
+        line-height: 30px;
+        padding: 35px 0px 35px 0px;
+    }
+    
+    .img-pos{
+        right: -120px;
+        top: -36px;
+    }
+    .btn{
+        padding: 16px 25px;
+    
+    }
+    .pad-bot{
+        padding-bottom: 45px;
+    }
+    .stars{
+        bottom: -60px;
+        right: 120px;
+    }  
+}
+
+@media (max-width:480px) {
+    .info-heading{
+        font-size: 16px;
+        max-width: 400px;
+        line-height: 30px;
+        padding: 30px 0px 30px 0px;
+    }
+    
+    .img-pos{
+        right: -25px;
+        top: -36px;
+    }
+    .btn{
+        padding: 14px 20px;
+    
+    }
+    .pad-bot{
+        padding-bottom: 40px;
+    }
+    .stars{
+        bottom: -60px;
+        right: -50px;
+    }  
+}
 /* footer */
 .ft-sec p{
     font-size: 13px;
